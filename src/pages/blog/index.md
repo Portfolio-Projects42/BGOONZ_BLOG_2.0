@@ -1,12 +1,14 @@
 ---
 title: Blog
-subtitle: This is an optional subtitle for the blog page
-image: images/5.jpg
+subtitle: Exclusive Blog Content
+image: images/maroon-onion.gif
 has_more_link: true
 more_link_text: Read more
 seo:
   title: Blog
-  description: This is the blog page
+  description: >-
+    These are blog posts... not nescisarily different from the docs section
+    except these pieces are more subject to my own opinions.
   extra:
     - name: 'og:type'
       value: website
@@ -18,7 +20,7 @@ seo:
       value: This is the blog page
       keyName: property
     - name: 'og:image'
-      value: images/5.jpg
+      value: images/my-blog.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -32,3 +34,5 @@ seo:
       relativeUrl: true
 template: blog
 ---
+
+
